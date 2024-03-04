@@ -189,7 +189,7 @@ fun ShoppingItemEditor(item:ShoppingItem,onEditComplete: (String,Int) -> Unit ){
         }
     }
 }
-
+// setting up how a list item should look like 
 @Composable
 fun ShoppingListItem(
     item: ShoppingItem,
