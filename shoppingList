@@ -51,6 +51,7 @@ fun ShoppingListApp(){
          modifier=Modifier.fillMaxSize(),
          verticalArrangement= Arrangement.Center
      ){
+// on clicking the button , alert dialog box should be visible 
          Button(onClick = { showDialog=true },
              modifier=Modifier.align(Alignment.CenterHorizontally)
          ){
